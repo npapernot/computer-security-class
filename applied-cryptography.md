@@ -79,6 +79,10 @@ In RSA, trapdoor function is prime product factoring and trapdoor
 secret the private key (for encryption) and the public key 
 (for signature--authenticity). 
 
+Bad implementations of RSA: reuse n for multiple users then anyone
+can factor, blinding misuse by signing message product of malicious
+message modulo something.
+
 # Digital signatures
 
 Asserts document is authentic and non-reputable. To sign a document,
@@ -95,3 +99,4 @@ decrypt correctly.
 
 No need to use public key crypto if a private symetric key was 
 already established.
+
