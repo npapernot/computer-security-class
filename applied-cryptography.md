@@ -1,4 +1,4 @@
-# Pubic key cryptography
+# Public key cryptography
 
 Public key cryptography requires different keys for encryption and decryption. 
 
