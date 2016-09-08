@@ -72,3 +72,26 @@ Current standard 2048 bit RSA keys
 The Totient guarantees that encryption uses the entire possible 
 target domain.
 
+Public key is set of e and n 
+Private key is d and n
+
+In RSA, trapdoor function is prime product factoring and trapdoor 
+secret the private key (for encryption) and the public key 
+(for signature--authenticity). 
+
+# Digital signatures
+
+Asserts document is authentic and non-reputable. To sign a document,
+one encrypts it with its private key. To validate the signature, 
+anyone can use the public key. 
+
+The document is first hashed before encryption for signing to validate
+authenticity. This is provided by the properties of hash functions:
+one way and collision free. It makes it harder for an adversary to 
+craft a different message that would have the same signature and would
+decrypt correctly.
+
+# Using public key crypto
+
+No need to use public key crypto if a private symetric key was 
+already established.
