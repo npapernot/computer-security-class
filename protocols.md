@@ -64,3 +64,10 @@ nodes of network may be untrusted. need a trusted
 third party to act as the authentication server.
 cf. *using encryption for authentication in large 
 networks of computers*
+
+the protocol was assumed to be right for several years
+until the Gavin Lowe attack. It's an active man in the
+middle attack. this allows one to impersonate the 
+originator. the attack basically uses two parralel
+sessions and swapping of public keys to recover the 
+nounce. 
