@@ -17,8 +17,10 @@ Basic authentication suffers ftom replay attacks
 and the recipient can impersonate the originator.
 
 Hashed passwords prevent the recipient from 
-recovering the plaintext password due to yhe
-one way property of hash functions
+recovering the plaintext password due to the
+one way property of hash functions.
 
 Challenge and response allow to prevent 
-replay attacks.
+replay attacks. The recipient sends a 
+challenge and the originator responds
+by hashing it along with the concatenated password.
