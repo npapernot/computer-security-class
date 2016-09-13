@@ -42,3 +42,19 @@ because eithet principals can compute the hmac
 
 public key crypto: provides non repudiation since
 originator is only principal with the private key
+
+## Confidentiality
+
+Several options. Easiest is to assume a shared secret
+and used it as private shared key in symmetric cipher.
+however key distribution is hard. 
+
+Assuming authenticity had been previously established,
+oroginator can encrypt randomly generated secret 
+using the recipient public key. The recipient private 
+key is required to read random secret. 
+
+## Key distribution
+
+warning: these protocols are vulnerable to man in 
+the middle attacks 
