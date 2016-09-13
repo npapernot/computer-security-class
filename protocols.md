@@ -24,3 +24,21 @@ Challenge and response allow to prevent
 replay attacks. The recipient sends a 
 challenge and the originator responds
 by hashing it along with the concatenated password.
+
+## Integrity
+
+Simplest way is to send a hash of the data. 
+To orevent adversaries from tampering with the
+data, the hash needs to be encrypted. 
+
+Can use both symmetric and public key crypto. 
+That corresponds to hmac or signing with a 
+private key. 
+
+## Non repudiation
+
+hmac: shared key does not provide non repudiation
+because eithet principals can compute the hmac
+
+public key crypto: provides non repudiation since
+originator is only principal with the private key
