@@ -70,4 +70,12 @@ until the Gavin Lowe attack. It's an active man in the
 middle attack. this allows one to impersonate the 
 originator. the attack basically uses two parralel
 sessions and swapping of public keys to recover the 
-nonce. 
+nonce. protocol is safe if there is at most one 
+session at a time.
+
+this discovery led to new protocol analysis tools 
+like the lowes fdr. analyzing multiple sessions
+is undecidable. Manual induction and expert 
+analysis are required. 
+
+real systems thus typically reuse primitive protocols. 
