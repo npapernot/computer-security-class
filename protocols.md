@@ -62,5 +62,5 @@ the middle attacks
 Needham Schroeder protocol on untrusted network, other
 nodes of network may be untrusted. need a trusted 
 third party to act as the authentication server.
-cf *using encryption for authentication in large 
+cf. *using encryption for authentication in large 
 networks of computers*
