@@ -32,3 +32,11 @@ to the stack, as well
 as capability to rewrite it. However, an 
 alternative is to move the stack to an area
 in memory that the adversary can write. 
+
+## Take aways
+
+ROP catches most of the attention when it 
+comes to finding defenses against control
+flow exploitation. 
+
+
