@@ -9,7 +9,7 @@ like stack (buffer), heap, format string.
 
 2. attacker uses control to launch attacks.
 This can be done using code injection (e.g.,
-on stakc or other data region). 
+on stack or other data region). 
 
 Return oriented programming claims arbitrary 
 exploitation without code injection or 
