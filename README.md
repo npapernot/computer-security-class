@@ -7,5 +7,5 @@ Notes from computer [security class by Trent Jaeger](http://www.cse.psu.edu/~trj
  * [Slides](http://www.cse.psu.edu/~trj1/cse543-f16/slides/cse543-applied-cryptography.pdf)
 
 * Internet Malware:
- * [Notes in Internet malware](https://github.com/npapernot/computer-security-class/blob/master/internet-malware)
+ * [Notes on Internet malware](https://github.com/npapernot/computer-security-class/blob/master/internet-malware)
  * [Slides](http://www.cse.psu.edu/~trj1/cse543-f16/slides/cse543-internet-malware.pdf)
