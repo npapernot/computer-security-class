@@ -11,3 +11,18 @@ like stack (buffer), heap, format string.
 This can be done using code injection (e.g.,
 on stakc or other data region). 
 
+Return oriented programming claims arbitrary 
+exploitation without code injection or 
+whole-function reuse.
+
+This goes against an assumption that any code
+that belonged to the application was safe
+to execute, and that adversaries could only
+achieve their goals by injecting new code. 
+
+Instead, with ROP, any sufficiently large
+code base should be the only requirement to
+perform arbitrary exploitation. 
+
+Generalization of return-into-libc, which 
+could for instance be used to call `system()`.
