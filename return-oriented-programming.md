@@ -39,4 +39,13 @@ ROP catches most of the attention when it
 comes to finding defenses against control
 flow exploitation. 
 
+# Control flow integrity
+
+Build control flow graphs
+
+Insert nops to tag function, and check it
+when making the call. 
+
+
+
 
