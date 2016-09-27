@@ -26,3 +26,9 @@ perform arbitrary exploitation.
 
 Generalization of return-into-libc, which 
 could for instance be used to call `system()`.
+
+Only requirement is to have either access 
+to the stack, as well
+as capability to rewrite it. However, an 
+alternative is to move the stack to an area
+in memory that the adversary can write. 
