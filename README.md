@@ -13,3 +13,7 @@ Notes from computer [security class by Trent Jaeger](http://www.cse.psu.edu/~trj
 * Return-oriented programming:
  * [Notes on return-oriented programming](https://github.com/npapernot/computer-security-class/blob/master/return-oriented-programming.md) 
  * [Slides](http://www.cse.psu.edu/~trj1/cse543-f16/slides/cse543-advanced-program.pdf)
+
+* Access Control:
+ * [Notes](https://github.com/npapernot/computer-security-class/blob/master/access-control.md)
+ * Slides
