@@ -39,13 +39,44 @@ ROP catches most of the attention when it
 comes to finding defenses against control
 flow exploitation. 
 
-# Control flow integrity
+## Control flow integrity
 
 Build control flow graphs
 
 Insert nops to tag function, and check it
 when making the call. 
 
+zig-zag imprecision can be solved by duplicating code
 
+CFI cannot have false positives: block 
+control flow transfers intended by the 
+programmer 
 
+Challenges:
+* returns that are used as jumps.
+* exceptions and multi-threaded 
+* dynamic shared libraries can lead to 
+runtime generation of indirect jumps
 
+CFI is a principled approach to stop
+control-glow attacks, but challenges 
+remain. 
+
+## Alternatives
+
+make it hard for adveraries to find
+gadgets by randomizing the execution
+of the program. 
+
+Address space randomization: Given a secret key
+and a program address space, the address
+space is encrypted. 
+
+## Address Space Layout Randomization
+
+makes it hard to inject code on the stack
+(for buffer overflow attacks) as well
+as jumping to malcode (return address). 
+
+Makes it harder for the attacker to 
+predict the absolute addresses.
