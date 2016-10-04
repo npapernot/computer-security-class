@@ -51,3 +51,24 @@ UNIX permissions are **monotonic**: absence of right
 does not mean you do not get access: having one
 identity (user, group, or world) has access, you 
 have access.
+
+File UID indicates its owner and group UID indicated 
+the ID of group.  Process UID indicates the 
+owner of the process. Process may run with multiple
+group UIDs.
+
+To switch UIDs, setuid is a special bit in the mode 
+bits that enables a user to escalate privilege when 
+the file is executed. Downside is that users define
+execution environment: so the setuid can be used as 
+an attack vector (e.g., confused deputy). 
+
+In windows, permissions are also associated with files. 
+ACLs are called access control entry. Contains the 
+principal SID, access mask (containing the rights), 
+and also a type (positive and negative permissions are 
+supported). Authorization is granted if all required
+permissions are matched for the SIDs. As soon as a right encountered
+is negative (deny), the access is denied. 
+
+
