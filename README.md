@@ -16,4 +16,4 @@ Notes from computer [security class by Trent Jaeger](http://www.cse.psu.edu/~trj
 
 * Access Control:
  * [Notes](https://github.com/npapernot/computer-security-class/blob/master/access-control.md)
- * Slides
+ * [Slides](http://www.cse.psu.edu/~trj1/cse543-f16/slides/cse543-access-control-basics.pdf)
