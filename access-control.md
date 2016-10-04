@@ -71,4 +71,10 @@ supported). Authorization is granted if all required
 permissions are matched for the SIDs. As soon as a right encountered
 is negative (deny), the access is denied. 
 
+Introduction of groups: bindings between users and groups
+are more fixed, than permissions are with groups.
+Sometimes, introduction of roles to simplify access 
+control maintenance. Permission-role membership is 
+static, but the user-role membership is transient. 
+
 
